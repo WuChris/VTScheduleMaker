@@ -227,11 +227,7 @@ def load_data(file):
 	refined_list = time_string(refined_list, original_list)
 	class_list = list_classes(refined_list)
 
-	#print subject_list
-	#print original_list[99]
-	#print refined_list[99]
-	print class_list[100]
-	#print refined_list[100]['Time string']
-	#print (refined_list)[3700]
+	return class_list
+	
 
-load_data("FallClasses.json")
+class_list = load_data("FallClasses.json")
